@@ -1,0 +1,150 @@
+2022-01-10 19:35:11.847 [main] INFO  com.course.Application - Starting Application using Java 1.8.0_181 on jacky-zhao with PID 37468 (C:\Users\91690\workspace\muke\AutoTest\Chapter13\target\classes started by zhaojian in C:\Users\91690\workspace\muke\AutoTest)
+2022-01-10 19:35:11.855 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2022-01-10 19:35:12.674 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2022-01-10 19:35:13.222 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2022-01-10 19:35:13.231 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-10 19:35:13.231 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-01-10 19:35:13.234 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-01-10 19:35:13.234 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-01-10 19:35:13.234 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-01-10 19:35:13.234 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-10 19:35:13.239 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-01-10 19:35:13.349 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-10 19:35:13.350 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1448 ms
+2022-01-10 19:35:14.270 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-10 19:35:14.270 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-10 19:35:14.271 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-01-10 19:35:14.272 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+2022-01-10 19:35:14.273 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-10 19:35:14.290 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-10 19:35:14.302 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-10 19:35:14.507 [main] INFO  com.course.Application - Started Application in 3.249 seconds (JVM running for 4.784)
+2022-01-10 19:35:57.563 [http-nio-8899-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-10 19:35:58.407 [http-nio-8899-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-10 19:35:58.451 [http-nio-8899-exec-2] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-10 19:35:58.451 [http-nio-8899-exec-2] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-10 19:35:58.607 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:35:58.612 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-10 19:36:03.702 [http-nio-8899-exec-3] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:36:03.725 [http-nio-8899-exec-3] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-10 19:36:03.954 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:36:03.959 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - 更新用户信息数为:1
+2022-01-10 19:39:19.626 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-10 19:39:19.626 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-10 19:39:19.768 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:39:19.772 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-10 19:39:24.855 [http-nio-8899-exec-9] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:39:24.857 [http-nio-8899-exec-9] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-10 19:39:31.096 [http-nio-8899-exec-2] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:39:31.100 [http-nio-8899-exec-2] INFO  com.course.controller.UserManager - 更新用户信息数为:1
+2022-01-10 19:41:15.935 [main] INFO  com.course.Application - Starting Application using Java 1.8.0_181 on jacky-zhao with PID 15416 (C:\Users\91690\workspace\muke\AutoTest\Chapter13\target\classes started by zhaojian in C:\Users\91690\workspace\muke\AutoTest)
+2022-01-10 19:41:15.940 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2022-01-10 19:41:16.697 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2022-01-10 19:41:17.198 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2022-01-10 19:41:17.207 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-10 19:41:17.207 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-01-10 19:41:17.209 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-01-10 19:41:17.209 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-01-10 19:41:17.209 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-01-10 19:41:17.209 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-10 19:41:17.213 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-01-10 19:41:17.313 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-10 19:41:17.313 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1326 ms
+2022-01-10 19:41:18.160 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-10 19:41:18.160 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-10 19:41:18.161 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-01-10 19:41:18.162 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+2022-01-10 19:41:18.163 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-10 19:41:18.177 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-10 19:41:18.189 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-10 19:41:18.385 [main] INFO  com.course.Application - Started Application in 3.014 seconds (JVM running for 4.406)
+2022-01-10 19:41:30.231 [http-nio-8899-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-10 19:41:31.025 [http-nio-8899-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-10 19:41:31.068 [http-nio-8899-exec-4] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-10 19:41:31.068 [http-nio-8899-exec-4] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-10 19:41:31.231 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:41:31.242 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-10 19:41:36.319 [http-nio-8899-exec-3] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:41:36.346 [http-nio-8899-exec-3] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-10 19:43:11.155 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:43:11.166 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - 更新用户信息数为:1
+2022-01-10 19:43:26.880 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-10 19:43:26.880 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-10 19:43:27.009 [http-nio-8899-exec-9] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:43:27.020 [http-nio-8899-exec-9] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-10 19:43:32.101 [http-nio-8899-exec-10] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:43:32.104 [http-nio-8899-exec-10] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-10 19:43:32.290 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:43:32.301 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - 更新用户信息数为:1
+2022-01-10 19:44:22.372 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-10 19:44:22.372 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-10 19:44:22.506 [http-nio-8899-exec-5] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:44:22.510 [http-nio-8899-exec-5] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-10 19:44:27.583 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:44:27.585 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-10 19:44:27.773 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:44:27.777 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - 更新用户信息数为:1
+2022-01-10 19:45:09.672 [http-nio-8899-exec-10] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-10 19:45:09.672 [http-nio-8899-exec-10] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-10 19:45:09.798 [http-nio-8899-exec-4] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:45:09.809 [http-nio-8899-exec-4] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-10 19:45:14.884 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:45:14.886 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-10 19:45:15.105 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:45:15.116 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - 更新用户信息数为:1
+2022-01-10 19:45:53.483 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-10 19:45:53.483 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-10 19:45:53.604 [http-nio-8899-exec-2] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:45:53.607 [http-nio-8899-exec-2] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-10 19:45:58.689 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:45:58.692 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-10 19:45:58.879 [http-nio-8899-exec-10] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:45:58.884 [http-nio-8899-exec-10] INFO  com.course.controller.UserManager - 更新用户信息数为:1
+2022-01-10 19:51:56.734 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-10 19:51:56.734 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-10 19:51:56.868 [http-nio-8899-exec-3] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:51:56.880 [http-nio-8899-exec-3] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-10 19:52:01.963 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:52:01.966 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-10 19:52:02.166 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:52:02.177 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - 更新用户信息数为:1
+2022-01-10 19:52:58.443 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-10 19:52:58.443 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-10 19:52:58.581 [http-nio-8899-exec-9] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:52:58.585 [http-nio-8899-exec-9] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-10 19:53:03.673 [http-nio-8899-exec-10] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:53:03.676 [http-nio-8899-exec-10] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-10 19:53:03.881 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:53:03.885 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - 更新用户信息数为:1
+2022-01-10 19:54:08.906 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-10 19:54:08.906 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-10 19:54:09.033 [http-nio-8899-exec-5] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:54:09.045 [http-nio-8899-exec-5] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-10 19:54:14.113 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:54:14.116 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-10 19:54:14.305 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:54:14.310 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - 更新用户信息数为:1
+2022-01-10 19:55:06.315 [http-nio-8899-exec-10] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-10 19:55:06.315 [http-nio-8899-exec-10] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-10 19:55:06.444 [http-nio-8899-exec-4] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:55:06.447 [http-nio-8899-exec-4] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-10 19:55:11.516 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:55:11.519 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-10 19:55:11.707 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:55:11.717 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - 更新用户信息数为:1
+2022-01-10 19:56:28.361 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-10 19:56:28.361 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-10 19:56:28.494 [http-nio-8899-exec-2] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:56:28.506 [http-nio-8899-exec-2] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-10 19:56:33.585 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:56:33.587 [http-nio-8899-exec-8] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-10 19:56:33.799 [http-nio-8899-exec-10] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 19:56:33.810 [http-nio-8899-exec-10] INFO  com.course.controller.UserManager - 更新用户信息数为:1
+2022-01-10 20:04:54.014 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-10 20:04:54.014 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-10 20:04:54.147 [http-nio-8899-exec-3] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 20:04:54.152 [http-nio-8899-exec-3] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-10 20:04:59.228 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 20:04:59.231 [http-nio-8899-exec-7] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-10 20:04:59.370 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-10 20:04:59.381 [http-nio-8899-exec-6] INFO  com.course.controller.UserManager - 更新用户信息数为:1

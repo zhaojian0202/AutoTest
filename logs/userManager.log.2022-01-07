@@ -1,0 +1,31 @@
+2022-01-07 20:56:41.515 [main] INFO  com.course.Application - Starting Application using Java 1.8.0_181 on jacky-zhao with PID 17736 (C:\Users\91690\workspace\muke\AutoTest\Chapter13\target\classes started by zhaojian in C:\Users\91690\workspace\muke\AutoTest)
+2022-01-07 20:56:41.522 [main] INFO  com.course.Application - No active profile set, falling back to default profiles: default
+2022-01-07 20:56:42.374 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.course]' package. Please check your configuration.
+2022-01-07 20:56:42.912 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+2022-01-07 20:56:42.922 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-01-07 20:56:42.922 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2022-01-07 20:56:42.924 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.25] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-01-07 20:56:42.924 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2022-01-07 20:56:42.924 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-01-07 20:56:42.924 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-01-07 20:56:42.930 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2022-01-07 20:56:43.039 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-01-07 20:56:43.039 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1462 ms
+2022-01-07 20:56:43.922 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-07 20:56:43.922 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-01-07 20:56:43.923 [main] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-01-07 20:56:43.924 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+2022-01-07 20:56:43.925 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-01-07 20:56:43.943 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-01-07 20:56:43.955 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-01-07 20:56:44.184 [main] INFO  com.course.Application - Started Application in 3.265 seconds (JVM running for 4.726)
+2022-01-07 20:57:02.375 [http-nio-8899-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-01-07 20:57:03.161 [http-nio-8899-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-01-07 20:57:03.212 [http-nio-8899-exec-3] INFO  com.course.controller.UserManager - 查询到的结果是1
+2022-01-07 20:57:03.212 [http-nio-8899-exec-3] INFO  com.course.controller.UserManager - 登录的用户是zhaojian
+2022-01-07 20:57:03.393 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-07 20:57:03.397 [http-nio-8899-exec-1] INFO  com.course.controller.UserManager - 添加用户的数量1
+2022-01-07 20:57:06.470 [http-nio-8899-exec-2] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-07 20:57:06.488 [http-nio-8899-exec-2] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2022-01-07 20:57:06.707 [http-nio-8899-exec-5] INFO  com.course.controller.UserManager - cookies验证通过
+2022-01-07 20:57:06.712 [http-nio-8899-exec-5] INFO  com.course.controller.UserManager - 更新用户信息数为:1

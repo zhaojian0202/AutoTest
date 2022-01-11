@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Chapter13" />
+        <module name="Chapter12" />
+        <module name="Chapter11" />
+        <module name="Chapter10" />
+        <module name="Chapter9" />
+        <module name="Chapter6" />
+        <module name="Chapter5" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AutoTest" target="1.8" />
+      <module name="Chapter10" target="8" />
+      <module name="Chapter11" target="1.8" />
+      <module name="Chapter12" target="6" />
+      <module name="Chapter13" target="1.8" />
+      <module name="Chapter5" target="1.8" />
+      <module name="Chapter6" target="1.8" />
+      <module name="Chapter9" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Chapter10" options="" />
+      <module name="Chapter11" options="-parameters" />
+      <module name="Chapter12" options="-parameters" />
+      <module name="Chapter13" options="-parameters" />
+      <module name="Chapter5" options="" />
+      <module name="Chapter6" options="" />
+      <module name="Chapter9" options="" />
+    </option>
+  </component>
+</project>

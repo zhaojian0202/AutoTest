@@ -1,0 +1,23 @@
+[
+  {
+    "description":"这是一个带参数的 POST 请求",
+    "request":{
+      "uri":"/audit-service/audit/review-result",
+      "method":"post",
+      "headers": {
+        "content-type": "application/json"
+      },
+      "json":{
+        "application_id": "21110500402995",
+        "node_name": "FDC在逾过多拒绝",
+        "refuseReasonId": null,
+        "reject_info": null,
+        "result": 1,
+        "type": "APPLICATION"
+      }
+    },
+    "response":{
+      "text":"这是一个带参数的 POST 请求"
+    }
+  }
+]
